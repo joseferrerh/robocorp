@@ -1,0 +1,9 @@
+Ruta donde se genera el fichero AFI de SAGE:
+	C:\Users\jferrer\AppData\Local\Sage\Temp\AFI
+Hay que configurar SAGE bien
+
+Ruta del XML:
+\\LCLASS\SageDespachos\Nomina\Contratos\CONTRATA
+
+
+    ${fileName} =   get FileName    AFI/XML

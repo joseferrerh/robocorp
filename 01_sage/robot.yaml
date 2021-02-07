@@ -1,0 +1,49 @@
+tasks:
+  1-Import Excel File:
+    command:
+      - python
+      - -m
+      - robot
+      - --report
+      - NONE
+      - -d
+      - output
+      - --logtitle
+      - Task log
+      - 01-import-excel-file.robot
+  3-Generate XML sepe-file:
+    command:
+      - python
+      - -m
+      - robot
+      - --report
+      - NONE
+      - -d
+      - output
+      - --logtitle
+      - Task log
+      - 03-generate-xml-file.robot
+  0-open:
+    command:
+      - python
+      - -m
+      - robot
+      - --report
+      - NONE
+      - -d
+      - output
+      - --logtitle
+      - Task log
+      - open.robot
+  All Tasks:
+    shell: .\alltasks.bat
+
+condaConfigFile: conda.yaml
+artifactsDir: output
+PATH:
+  - .
+PYTHONPATH:
+  - .
+  - libraries
+ignoreFiles:
+    - .gitignore

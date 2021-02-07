@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.8.5 on win32)" generated="20210125 01:40:12.729" rpa="true">
+<suite id="s1" name="05" source="C:\RPA\Robocorp Lab Examples\01_sage\05.robot">
+<test id="s1-t1" name="Task 5">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20210125 01:40:12.780" level="INFO">5</msg>
+<status status="PASS" starttime="20210125 01:40:12.780" endtime="20210125 01:40:12.781"></status>
+</kw>
+<status status="PASS" starttime="20210125 01:40:12.779" endtime="20210125 01:40:12.781" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20210125 01:40:12.732" endtime="20210125 01:40:12.868"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tasks</stat>
+<stat pass="1" fail="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="05">05</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
